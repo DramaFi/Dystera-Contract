@@ -7,6 +7,10 @@ module.exports = {
     flow:{
       accounts:[process.env.PRIVATE_KEYS],
       url:process.env.FLOW_RPC
+    },
+    base:{
+      accounts:[process.env.PRIVATE_KEYS],
+      url:process.env.BASE_RPC
     }
   }
 };
